@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — InsightAI Social</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1a1a1a; background: #fff; line-height: 1.7; }
+    .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+    .meta { font-size: 14px; color: #666; margin-bottom: 48px; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin: 36px 0 12px; color: #111; }
+    p { margin-bottom: 16px; color: #333; font-size: 15px; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    li { color: #333; font-size: 15px; margin-bottom: 8px; }
+    a { color: #4f46e5; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #e5e7eb; font-size: 13px; color: #999; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="meta">InsightAI Social Command Center &nbsp;·&nbsp; Last updated: June 1, 2025</p>
+
+    <p>InsightAI Social Command Center ("we", "our", or "us") is a personal social media analytics tool built to track and improve social media performance on LinkedIn and Instagram. This Privacy Policy explains how we collect, use, and protect your information.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>When you connect your LinkedIn or Instagram account, we collect:</p>
+    <ul>
+      <li>Your public profile information (name, username, profile picture)</li>
+      <li>Post content, engagement metrics (likes, comments, shares, impressions)</li>
+      <li>Follower counts and audience growth data</li>
+      <li>OAuth access tokens required to read your data from the platform APIs</li>
+    </ul>
+    <p>We do not collect passwords. Authentication is handled entirely through LinkedIn's and Meta's official OAuth 2.0 flows.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>Your data is used solely to:</p>
+    <ul>
+      <li>Display your social media analytics in the dashboard</li>
+      <li>Generate AI-powered content recommendations and blog topic suggestions</li>
+      <li>Send Slack notifications about posting gaps or performance milestones</li>
+      <li>Calculate engagement rates and virality scores for your posts</li>
+    </ul>
+    <p>We do not sell, share, or transfer your data to any third party for advertising or commercial purposes.</p>
+
+    <h2>3. Data Storage</h2>
+    <p>All data is stored in a private PostgreSQL database hosted locally or on infrastructure controlled exclusively by you, the user. We do not operate shared cloud servers. Your OAuth tokens are stored encrypted and are never logged or transmitted outside your own environment.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>This application integrates with the following third-party APIs:</p>
+    <ul>
+      <li><strong>LinkedIn API</strong> — to read post and profile analytics. Subject to <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank">LinkedIn's Privacy Policy</a>.</li>
+      <li><strong>Meta Graph API</strong> — to read Instagram post insights. Subject to <a href="https://www.facebook.com/privacy/policy/" target="_blank">Meta's Privacy Policy</a>.</li>
+      <li><strong>Anthropic / OpenAI / Google Gemini</strong> — for AI-generated recommendations. Post content summaries may be sent to these APIs. Subject to their respective privacy policies.</li>
+      <li><strong>Slack</strong> — for team notifications. Only summary data (post title, engagement score) is shared.</li>
+    </ul>
+
+    <h2>5. Data Retention</h2>
+    <p>Your data is retained for as long as you use the application. You can delete all your data at any time by disconnecting your integrations and dropping the local database. We do not retain backups on external servers.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access all data stored about you</li>
+      <li>Delete your account and all associated data</li>
+      <li>Revoke LinkedIn or Instagram OAuth access at any time via their respective app permission settings</li>
+      <li>Request a copy of your data</li>
+    </ul>
+
+    <h2>7. Security</h2>
+    <p>We implement industry-standard security measures including encrypted token storage, JWT-based authentication, and HTTPS for all API communications. Since this is a self-hosted application, you are responsible for the security of your own server environment.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>This application is not directed at children under the age of 13. We do not knowingly collect data from minors.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this page.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have any questions about this Privacy Policy, please contact:</p>
+    <ul>
+      <li><strong>Name:</strong> Akash Chandra</li>
+      <li><strong>Email:</strong> <a href="mailto:akash@insightai.in">akash@insightai.in</a></li>
+      <li><strong>Product:</strong> InsightAI Social Command Center</li>
+    </ul>
+
+    <div class="footer">
+      &copy; 2025 InsightAI. This privacy policy applies to the InsightAI Social Command Center application.
+    </div>
+  </div>
+</body>
+</html>
